@@ -2,7 +2,7 @@
 
 internal class Passageiro(string nome, int idade, int quantidadeBilhetes) : Pessoa(nome, idade)
 {
-    public int QuantidadeBilhetes { get; set; } = quantidadeBilhetes;
+    public int QuantidadeBilhetes { get; } = quantidadeBilhetes;
 
     public void ImprimirDados()
     {
