@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace EmployeeRegister;
 
-namespace EmployeeRegister
+internal class Funcionario(string nome, string cargo)
 {
-    internal class Funcionario
-    {
-    }
+    public string Nome { get; } = nome;
+    public string Cargo { get; } = cargo;
 }
